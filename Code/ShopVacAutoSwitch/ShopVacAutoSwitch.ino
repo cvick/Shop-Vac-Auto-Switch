@@ -4,7 +4,7 @@
 #define CURRENT_THRESHOLD 520 // The analog value above which the relay shall be triggered
 #define CURRENT_SAMPLE_PERIOD 500 // The number of milliseconds to sample the current reading
 #define RELAY_STARTUP_DELAY 2000 // The number of milliseconds to delay before activating relay after tool has started
-#define RELAY_SHUTOFF_DELAY 5000 // The number of milliseconds to delay shutting off the relay after the tool has been shutoff
+#define RELAY_SHUTOFF_DELAY 6000 // The number of milliseconds to delay shutting off the relay after the tool has been shutoff
 
 int analogValue = 0; // Stores ADC values read in from the current sensor
 unsigned long stopwatch = 0; // Used to keep track of elapsed time
